@@ -10,13 +10,6 @@ app.use('/static', express.static('public'));
 // Set view engine as pug
 app.set('view engine', 'pug');
 
-// // error handling middleware
-// app.use((req, res, next) => {
-//   const err = new Error("Oh no!");
-//   err.status = 500;
-//   next(err);
-// });
-
 const routes = require('./routes/index.js');
 
 app.use(routes);

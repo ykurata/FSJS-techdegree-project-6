@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link":"https://ykurata.github.io/A-Ramdom-Quote-Generator/",
             "github_link":"https://github.com/ykurata/A-Ramdom-Quote-Generator" ,
-            "image_url": "image"
+            "image_url":["/static/images/project0-main.png"]
           },
           {
             "id": "1",
@@ -16,16 +16,16 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://ykurata.github.io/FSJS-techdegree-project-2/",
             "github_link":"https://github.com/ykurata/FSJS-techdegree-project-2",
-            "image_url":"iamge"
+            "image_url":["/static/images/project1-main.png"]
           },
           {
             "id": "2",
             "project_name": "Interactive Form",
-            "description": "Use JavaScript to enhance an interactive registration form for a fictional conference called 'FullStack Conf.' ",
+            "description": "Use JavaScript to enhance an interactive registration form for a fictional conference called 'FullStack Conf'. ",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link":"https://ykurata.github.io/FSJS-techdegree-project-3/" ,
             "github_link":"https://github.com/ykurata/FSJS-techdegree-project-3" ,
-            "image_url":"iamge"
+            "image_url":["/static/images/project2-main.png"]
           },
           {
             "id": "3",
@@ -34,7 +34,8 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link":"https://ykurata.github.io/FSJS-techdegree-project-4/" ,
             "github_link":"https://github.com/ykurata/FSJS-techdegree-project-4" ,
-            "image_url":"iamge"
+            "image_url":["/static/images/project3-main.png"]
+
           },
           {
             "id": "4",
@@ -43,7 +44,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link":"https://ykurata.github.io/FSJS-techdegree-project-5/" ,
             "github_link":"https://github.com/ykurata/FSJS-techdegree-project-5",
-            "image_url":"image"
+            "image_url":["/static/images/project4-main.png"]
           }
       ]
 }
