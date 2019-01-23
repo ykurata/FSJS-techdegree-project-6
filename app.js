@@ -14,19 +14,24 @@ const routes = require('./routes/index.js');
 
 app.use(routes);
 
+
+
+
 // middleware to create a new error and set status code
 app.use((req, res, next) => {
-  const err = new Error("Not found");
+  const err = new Error("Page not found");
   err.status = 404;
   next(err);
 });
 
 // error handler
 app.use((err, req, res, next) => {
+  console.log("There was an error!")
   res.locals.error = err;
   res.status(err.status);
-  res.render('error', err);
+  res.render('error');
 });
+
 
 // Runing the app
 app.listen(3000, () => {
