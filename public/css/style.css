@@ -1,13 +1,23 @@
-
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: rgb(255, 80, 80);
+  font-weight: bold;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
+    font-weight: bold;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
+  }
+
+  h5:hover {
+    color: #A69D9D;
   }
 
   h6{
@@ -15,12 +25,16 @@ h1,h2,h3,h4,h5,p{
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
+    color: rgb(255, 80, 80);
   }
 
   p{
     font-size: 15px;
     color: #666;
   }
+
+
+
 
 .round{
   border-radius: 5px;
@@ -147,4 +161,17 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+#my-info {
+  background: linear-gradient(to bottom right, #ff6600 0%, #ff99cc 100%);
+}
+
+p.text-light {
+  color: white;
+}
+
+p.lead.text-light {
+  font-style: italic;
+  color: #666;
 }
