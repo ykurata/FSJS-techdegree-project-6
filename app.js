@@ -33,7 +33,7 @@ app.use((err, req, res, next) => {
 });
 
 
-// Runing the app
+// Run the app
 app.listen(3000, () => {
 console.log('The application is running on localhost:3000');
 });
